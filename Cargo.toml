@@ -1,0 +1,12 @@
+[package]
+name = "lau-relativity"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-relativity"
+description = "Special and general relativity: spacetime, Lorentz transformations, curved geometry, geodesics, and cosmology"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+num-complex = "0.4"
